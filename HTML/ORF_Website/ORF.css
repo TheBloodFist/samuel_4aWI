@@ -1,0 +1,119 @@
+body{
+    background-color: grey;
+    margin-top: 0px
+}
+
+.divwrapper{
+    margin-right: 35%;
+    margin-left: 5%;
+    position: relative;
+    justify-content: center;
+}
+
+.divlist{
+    display: flex;
+    position: relative;
+    background-color: darkred;
+    margin-top: 0%;
+    justify-content: left;
+    box-sizing: border-box;
+    width: 100%;
+    padding-left: 10px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+
+li{
+    display: inline;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.specialli{
+    padding-top: 12px;
+}
+
+a{
+    text-decoration: none;
+    color: white;   
+}
+
+a:hover { 
+    background-color: lightcora;
+    color: #FF7F7F;
+    text-decoration: underline;
+  }
+
+.divlogo{
+    display: flex;
+    background-color: #d00000;
+    height: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.orflogo{
+    height: 58px;
+}
+
+p{
+    font-size: 35px;
+    margin: 0;
+    padding-top: 7px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.divlist2{
+    display: flex;
+    position: relative;
+    background-color: darkred;
+    margin-top: 0%;
+    justify-content: right;
+    box-sizing: border-box;
+    width: 100%;
+    padding-left: 130px;
+    padding-top: 2px;
+}
+
+.divbackground{
+    background-image: url("images/background.jpg");
+    background-size:cover;
+    height: 475px;
+}
+
+.divwhite{
+    background-color: white;
+    justify-content: center;
+    display: flex;
+}
+
+.divtext{
+    background-color: white;
+    width: 70%;
+    position: relative;
+    top: -80px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;;
+}
+
+.divtext h1{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.divtext p1{
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+

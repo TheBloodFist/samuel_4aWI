@@ -1,0 +1,60 @@
+body{
+   
+
+}
+
+div{
+    border-style: solid;
+}
+
+.divtop{
+    background-image: url("images/burger.jpg");
+    background-size: contain;
+    background-color: lightyellow;
+    position: relative;
+    height: 700px;
+    width: 100%;
+    
+    
+}
+
+.divbottom{
+    background-color: lightblue;
+    position: relative;
+    height: 300px;
+    margin-top: 660px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.div1{
+    background-color: lightpink;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    justify-content: left;
+    
+}
+
+.div2{
+    background-color: lime;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    justify-content: right;
+    
+}
+
+.box{
+    background-color: mediumorchid;
+    height: 200px;
+    width: 200px;
+    margin: 10%;
+    
+}
+
+

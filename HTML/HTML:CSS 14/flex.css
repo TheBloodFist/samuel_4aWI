@@ -1,0 +1,76 @@
+
+div{
+    border-style: solid;
+}
+
+.divbottom{
+    background-color: aliceblue;
+    background-color: lightyellow;
+    position: relative;
+    height: 700px;
+    width: 100%;
+    
+    
+}
+
+.divtop{
+    background-color: lightblue;
+    position: relative;
+    height: 150px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 60%;
+    
+
+}
+
+.div1{
+    background-color: lightpink;
+    position: absolute;
+    height: 300px;
+    width: 400px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    justify-content: left;
+    
+}
+
+.div2{
+    background-color: lime;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    bottom: 0px;
+    right: 0px;
+    
+}
+
+.divbrown{
+    background-color: brown;;
+    margin-top: 23%;
+    margin-left: 74%;
+    height: 100px;
+    width: 100px;
+}
+
+.box{
+    background-color: mediumorchid;
+    height: 30px;
+    width: 30px;
+    margin: 10%;
+    margin-top: 100px;
+    
+}
+
+.willkommen{
+    font-weight: bold;
+    font-size: medium;
+}
+
+
+
