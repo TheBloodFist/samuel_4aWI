@@ -7,4 +7,6 @@ function generate(){
 
     let randomnumber = Math.floor(Math.random() * randomamountofnumbers) + parseInt(number1);
     console.log(randomnumber);
+
+    document.getElementById("Ausgabe").innerHTML = randomnumber
 }
