@@ -1,0 +1,47 @@
+.divtop{
+
+    background-color: deepskyblue;
+    display: flex;
+    width: 100%;
+    height: 150px;
+}
+
+.topcontent{
+
+    background-color: lightgreen;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    margin-top: 40px;
+    margin-left: 20px;
+
+    
+}
+
+.topcontent2{
+
+    background-color: lightgreen;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    margin-top: 40px;
+    margin-left: 84%;
+}
+
+.divbottom{
+
+    background-color: purple;
+    position: relative;
+    margin-top: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.bottomcontent{
+
+    background-color: salmon;
+    position: relative;
+    height: 100px;
+    width: 100px;
+    top: -8vh;
+}

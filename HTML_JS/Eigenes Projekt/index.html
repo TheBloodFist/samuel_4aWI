@@ -15,15 +15,21 @@
         <div class="CharAuswahl">
 
             <p>Wähle deinen Charakter aus</p>
+
             <select id="auswahl">													
-                <option value="Paul der Asoziale" id="Paul">+</option>		
-                <option value="Florian der Riese" id="Florian">-</option>					
-                <option value="Lucas der Shrekliebhaber" id="Lucas">*</option>
-                <option value="Brian der Starke" id="Brian">/</option>			
+                <option value="1" id="P">Paul der Asoziale</option>		
+                <option value="2" id="F">Florian der Riese</option>					
+                <option value="3" id="L">Lucas der Shrekliebhaber</option>
+                <option value="4" id="B">Brian der Starke</option>			
             </select>
+
+            <button onclick="ausgewaehlt()">auswählen</button>
             
         </div>
 
+        <div class="Ausgabe">
+            <p>Ergebnis: <span id="Ausgabe"></span></p>
+        </div>
     </div>
 
 
