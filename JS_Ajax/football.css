@@ -1,0 +1,15 @@
+.teams{
+    height: 100%;
+    width: 600px;
+    background-color: greenyellow;
+    text-align: center;
+    font-size: 25px;
+    border-style:solid;
+    list-style-type: none;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
